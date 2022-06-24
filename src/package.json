@@ -1,0 +1,30 @@
+{
+  "name": "node---sql-sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevIsraelSantos/Node---Sql-Sequelize.git"
+  },
+  "author": "DevIsraelSantos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevIsraelSantos/Node---Sql-Sequelize/issues"
+  },
+  "homepage": "https://github.com/DevIsraelSantos/Node---Sql-Sequelize#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.15.1",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.4.1",
+    "xpm": "^0.12.9"
+  }
+}
